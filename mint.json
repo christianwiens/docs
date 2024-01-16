@@ -26,10 +26,6 @@
     "url": "https://doctopus.ai"
   },
 "tabs": [
-    {
-      "name": "Test Tab",
-      "url": "quickstart"
-    }
   ],
   "anchors": [
     {
