@@ -24,8 +24,8 @@
   "topbarCtaButton": {
     "name": "Website",
     "url": "https://doctopus.ai"
-  }
-  "tabs": []
+  },
+  "tabs": [],
   "anchors": [
     {
       "name": "Documentation",
