@@ -25,6 +25,8 @@
     "name": "Website",
     "url": "https://doctopus.ai"
   }
+  "tabs": [
+  ],
   "anchors": [
     {
       "name": "Documentation",
