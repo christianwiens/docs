@@ -5,8 +5,7 @@
     "dark": "/logo/whitelogo.svg",
     "light": "/logo/whitelogo.svg"
   },
-  "favicon": {"doctopus2.png",
-  },
+  "favicon": "/logo/doctopus2.png",
   "colors": {
  "primary": "#eb3349",
     "light": "#ff4e3f",
