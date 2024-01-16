@@ -1,86 +1,62 @@
 ---
 title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+description: 'Setup Doctopus and start navigating documentation in 5 minutes'
 ---
 
-## Setup your development
+## Creating a New Workspace
 
-Learn how to update your docs locally and and deploy them to the public.
+- Once signed up, access the app where you'll be prompted to create a new workspace.
 
-### Edit and preview
+- Upload your project to Doctopus. This allows the app to identify your Node dependencies and gather the corresponding documentation.
 
-<AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
+<img
+  src="/images/accountsignup.png"
+  alt="Header Docs"
+/>
 
-### Deploy your changes
+## Selecting Your Packages
 
-<AccordionGroup>
+- After uploading your project, a new window appears showing all detected packages.
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
+- Select or deselect packages to customize your Doctopus workspace.
 
-</AccordionGroup>
+- Click "Get Started" to confirm your package selection and proceed.
 
-## Update your docs
+- At any time you can select or deselect packages from this menu to fit your current needs. Click "save changes" and the documentation for any packages you select will automatically appear on the left sidebar of the app now.
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+<img
+  src="/images/packageselect.png"
+  alt="Header Docs"
+/>
 
-<CardGroup>
+## Navigating Your Doctopus Workspace
 
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
+1. Your workspace is your hub within Doctopus, featuring a sidebar with all selected packages for quick access.
 
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
+2. Navigate between packages by clicking their icons on the sidebar.
 
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
+3. Open sub-pages within specific package docs in separate tabs. Easily switch between packages, and your tabs will be preserved.
 
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
+4. In the top right corner you'll find a button to activate the Octobot, as well as a Settings menu.
 
-</CardGroup>
+<img
+  src="/images/mainscreen.png"
+  alt="Header Docs"
+/>
+
+## Utilizing Octobot AI (In Development)
+
+1. In the right sidebar of the app you will find Octobot, the Doctopus AI that uniquely understands your project and the documentation for any packages you’re using.
+
+2. You can open and close the Octobot by selecting the 🐙 emoji in the top right of the window. When Octobot is active a ✨ will appear over the octopus.
+
+3. You can use Octobot AI to ask questions, generate code examples, and much more.
+
+> Note: Octobot is in early development and some features are unavailable in the current release.
+
+<img
+  src="/images/octobot.png"
+  alt="Header Docs"
+/>
+
+Dive into your Doctopus workspace and experience the ease of managing NodeJS documentation tailored to your project’s needs. Enjoy the journey!
