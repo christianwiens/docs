@@ -25,7 +25,12 @@
     "name": "Website",
     "url": "https://doctopus.ai"
   },
-  "tabs": [],
+"tabs": [
+    {
+      "name": "Test Tab",
+      "url": "quickstart"
+    }
+  ],
   "anchors": [
     {
       "name": "Documentation",
