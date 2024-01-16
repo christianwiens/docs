@@ -3,7 +3,7 @@
   "name": "Doctopus",
   "logo": {
     "dark": "/logo/whitelogo.svg",
-    "light": "/logo/whitelogo.svg"
+    "light": "/logo/darklogo.svg"
   },
   "favicon": "/logo/doctopus2.png",
   "colors": {
